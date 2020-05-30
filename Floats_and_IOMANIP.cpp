@@ -12,7 +12,8 @@ int main(){
 	cout<<y<<endl;	//printing the whole number stored in y
 	
 	cout<<setprecision(2)<<fixed<<y<<endl; //printing the variable y only with 2 decimal positions
-
+	
+	cout<<scientific<<y<<endl;	//printing the variable y in the scientific format
 
 	return 0;
 }
