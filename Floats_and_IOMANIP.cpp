@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(){
@@ -9,6 +10,9 @@ int main(){
 	
 	float y=23.456;	//declaring a float variable with 3 decimal positions
 	cout<<y<<endl;	//printing the whole number stored in y
+	
+	cout<<setprecision(2)<<fixed<<y<<endl; //printing the variable y only with 2 decimal positions
+
 
 	return 0;
 }
