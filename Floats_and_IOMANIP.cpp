@@ -14,6 +14,11 @@ int main(){
 	cout<<setprecision(2)<<fixed<<y<<endl; //printing the variable y only with 2 decimal positions
 	
 	cout<<scientific<<y<<endl;	//printing the variable y in the scientific format
+	
+
+        //waiting for the user to press ENTER
+        cin.get();
+
 
 	return 0;
 }
